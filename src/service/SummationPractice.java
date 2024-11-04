@@ -1,3 +1,5 @@
+package service;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,8 +10,9 @@ public class SummationPractice {
 
             sum += number;
 
-            System.out.println(sum + "\n+");
+            System.out.println(number);
         }
+        System.out.println(" =" + sum);
 
         return sum;
     }
@@ -20,7 +23,7 @@ public class SummationPractice {
         numbs.add(15);
         numbs.add(20);
         numbs.add(25);
-        System.out.println(summation(numbs));
+        summation(numbs);
 
     }
 

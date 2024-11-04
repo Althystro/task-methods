@@ -1,5 +1,9 @@
+import service.SummationPractice;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        SummationPractice.main(args);
+
+
     }
 }
